@@ -7,7 +7,8 @@ This document outlines the architecture and setup for a **Standalone QNX Virtual
 The architecture is based on the assumption that the WebRTC server, including TURN and signaling servers, is provided by QNX.
 
 ---
-<img width="680" height="258" alt="image" src="https://github.com/user-attachments/assets/cb4706e5-4d55-4970-b43c-491efa7a84c2" />
+<img width="671" height="353" alt="image" src="https://github.com/user-attachments/assets/575c8277-0ab3-443c-8d84-52419adaf694" />
+
 
 ## Architecture Components
 
