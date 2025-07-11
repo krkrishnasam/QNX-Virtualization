@@ -3,6 +3,9 @@
 ## Overview
 This document outlines the architecture and setup for a **Standalone QNX Virtual Machine (VM)** running on a Linux host using QEMU/QNX hypervisor. It enables real-time audio streaming from QNX guest applications to a developer's browser via WebRTC.
 
+## Assumptions
+The architecture is based on the assumption that the WebRTC server, including TURN and signaling servers, is provided by QNX.
+
 ---
 <img width="680" height="258" alt="image" src="https://github.com/user-attachments/assets/cb4706e5-4d55-4970-b43c-491efa7a84c2" />
 
