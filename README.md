@@ -12,6 +12,20 @@ The architecture is based on the assumption that the WebRTC server, including TU
 
 ## Architecture Components
 
+## QNX Audio Use Case
+MBCC QNX supports both Instrument Cluster (IC) apps and Safety apps, enabling playback of various chime audio types critical for driver awareness and vehicle feedback.
+
+### 1. **Non-Safety Audio**
+- Chime audio
+- QNX utilities:  Wave, Aplay, WaveRec, ARecord, AMixer
+### 2. **Safety Audio**
+
+- Includes alerts that meet ASIL A/B safety standards
+- Examples: Seat Belt Warning, Lane Departure, Blind Spot Detection
+### 3. **Early Audio**
+
+-  Played during system boot-up or welcome animations before full OS initialization
+## Architecture Components
 ### 1. **Linux Host**
 - Base OS that runs the virtualization stack.
 - Hosts the QEMU/QNX hypervisor.
